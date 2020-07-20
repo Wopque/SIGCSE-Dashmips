@@ -10,15 +10,18 @@
 	"folders": [
 		{
 			"name": "interpreter",
-			"path": "./dashmips"
+			"path": "interpreter"
 		},
 		{
 			"name": "debugger",
-			"path": "./dashmips-debugger",
+			"path": "debugger"
 		},
 		{
-			"name": "wiki",
-			"path": "./dashmips.wiki"
+			"name": "dashmips.wiki",
+			"path": "dashmips.wiki"
+		},
+		{
+			"path": "../test"
 		}
 	],
 	"settings": {
@@ -51,6 +54,7 @@
 		"python.linting.pydocstyleEnabled": true,
 		"python.linting.pylintEnabled": false,
 		"python.linting.mypyEnabled": true,
+		"python.pythonPath": ".venv/bin/python",
 	},
 	"launch": {
 		"version": "0.2.0",
