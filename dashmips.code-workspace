@@ -67,7 +67,8 @@
 				"module": "dashmips",
 				"cwd": "${workspaceFolder:interpreter}",
 				"args": [
-					"run"
+					"run",
+					"${workspaceFolder:interpreter}/tests/test_mips/args.mips"
 				]
 			},
 			{
