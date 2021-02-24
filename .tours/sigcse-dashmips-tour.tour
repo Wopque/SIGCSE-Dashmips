@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "SIGCSE Dashmips Tour",
+  "steps": [
+    {
+      "file": "tour.mips",
+      "description": "Dashmips has a built in memory visualizer to visualize the .data section, the stack, and the heap!\n\n```mips\nli $v0, 4\n```",
+      "line": 10,
+      "selection": {
+        "start": {
+          "line": 10,
+          "character": 1
+        },
+        "end": {
+          "line": 10,
+          "character": 6
+        }
+      }
+    },
+    {
+      "file": "tour.mips",
+      "description": "Let's try running it - press control/command + shift + P and select one of the following commands:\n\nDashmips: Visualize the stack\n\nDashmips: Visualize the heap\n\nDashmips: Visualize the .data section",
+      "line": 11,
+      "selection": {
+        "start": {
+          "line": 11,
+          "character": 1
+        },
+        "end": {
+          "line": 11,
+          "character": 38
+        }
+      }
+    },
+    {
+      "file": "tour.mips",
+      "description": "Now let's try running the program!  This is a simple program with just a single print statement.  To run Dashmips, go to the Debug tab on the left and click the green button labelled with Dashmips (Run).",
+      "line": 18,
+      "selection": {
+        "start": {
+          "line": 18,
+          "character": 1
+        },
+        "end": {
+          "line": 25,
+          "character": 8
+        }
+      }
+    }
+  ]
+}
