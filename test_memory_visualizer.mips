@@ -1,0 +1,27 @@
+
+# Sample .data section
+# // Store values with any of the following qualifiers
+#   .ascii
+#   .asciiiz
+#   .word
+#   .half
+#   .byte
+.data
+alignment: .space 10
+sample_word: .word 4
+sample_half: .half 2
+sample_byte: .byte 1
+sample_string: .ascii   "!sdrawkcab derots era sgnirtS"
+
+# Start of the program
+.text
+main:
+
+# Allocate space on the heap
+li $a0, 20
+li $v0, 9
+syscall
+
+# Exit program
+li $v0, 10
+syscall

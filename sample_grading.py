@@ -1,8 +1,12 @@
+#
+# THIS IS A SAMPLE OF HOW TO GRADE STUDENT WORK USING PYTHON & DASHMIPS
+#
+
 from dashmips import preprocess, run
 
-for _ in range(1):  # This is where you can iterate through all student's programs
+for _ in range(100):  # This is where you can iterate through all student's programs
     # Run function takes a callback * run condition * (evaluates each step of a student's program)
-    f = open("sample.mips").read()
+    f = open("student_submission.mips").read()
     student_program = preprocess(f)
 
     # Ensures that a student's program is not longer than 500 instructions

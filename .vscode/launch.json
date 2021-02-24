@@ -7,24 +7,8 @@
         {
             "type": "dashmips",
             "request": "launch",
-            "name": "dashmips (Run Current File)",
-            "program": "${file}",
-            "registerFormat": "dec",
-            "dashmipsCommand": "python -m dashmips debug",
-            "dashmipsArgs": [
-                "-l",
-                "-i",
-                "localhost",
-                "-p",
-                "2390"
-            ]
-        },
-        {
-            "type": "dashmips",
-            "request": "attach",
-            "name": "dashmips (Attach)",
-            "registerFormat": "dec",
-            "port": 2390
+            "name": "Dashmips (Run)",
+            "program": "${file}"
         }
     ]
 }

@@ -1,0 +1,35 @@
+.data
+hello_world: .ascii   "Hello SIGCSE!\n"
+hello_again: .ascii   "Hello again."
+
+.text
+main:
+
+li $t0, 0
+li $t1, 2
+li $v0, 4
+
+loop:
+
+# If first time greeting, branch
+beqz $t0, first_greeting
+
+# Else, say hello again!
+la $a0, hello_again
+j greet
+
+# Initial greeting
+first_greeting:
+la $a0, hello_world
+
+# Print String
+greet:
+syscal
+
+# Iterate $t0 + 1
+addi $t0, $t0, 1
+
+bge $t0, $t1, loop
+
+li $v0, 10
+syscall
