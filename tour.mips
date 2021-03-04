@@ -1,0 +1,25 @@
+# Welcome to the SIGCSE Dashmips Demonstration!
+
+# // Store values with any of the following qualifiers
+#   .ascii
+#   .asciiiz
+#   .word
+#   .half
+#   .byte
+
+.data
+hello_world: .ascii   "Hello SIGCSE!"
+
+
+# Start of the program!
+.text
+main:
+
+# Prints the strings from the .data section
+li $v0, 4
+la $a0, hello_world
+syscall
+
+# Make sure to quit out of the program!
+li $v0, 10
+syscall

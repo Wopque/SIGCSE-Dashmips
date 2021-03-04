@@ -1,0 +1,145 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Exploring Dashmips' Features",
+  "steps": [
+    {
+      "title": "Welcome!",
+      "description": "Welcome to the Dashmips tour!  We will go over various features of Dashmips, including:\n- Memory Visualizer\n- Debugger\n- Command Line Integration\n...And more!"
+    },
+    {
+      "file": "test_runtime_bug.mips",
+      "description": "That's all for the tour of Dashmips' features!  Check out the *Exploring Dashmips' Usages* tour for more information on how Dashmips can be utilized and expanded on as a tool.",
+      "line": 27,
+      "selection": {
+        "start": {
+          "line": 26,
+          "character": 1
+        },
+        "end": {
+          "line": 27,
+          "character": 8
+        }
+      }
+    },
+    {
+      "file": "test_memory_visualizer.mips",
+      "description": "Dashmips has a built in Memory Visualizer for the stack, heap, and .data sections!\n\nLet's try running it - press control/command + shift + P and select one of the following commands:\n\nDashmips: Visualize the stack\n\nDashmips: Visualize the heap\n\nDashmips: Visualize the .data section\n",
+      "line": 8,
+      "selection": {
+        "start": {
+          "line": 19,
+          "character": 1
+        },
+        "end": {
+          "line": 22,
+          "character": 8
+        }
+      }
+    },
+    {
+      "file": "test_memory_visualizer.mips",
+      "description": "The memory visualizer will automatically update with live debugging-- simply open the visualizer before running and then debug to see any changes!\n\nMemory can be visualized as either ascii characters, integers, or floats.",
+      "line": 19
+    },
+    {
+      "file": "test_compile_bug.mips",
+      "description": "Let's try running a program from the command line-- copy the below command into your terminal:\n\n```\npython -m dashmips run test_compile_bug.mips\n```",
+      "line": 6,
+      "selection": {
+        "start": {
+          "line": 6,
+          "character": 1
+        },
+        "end": {
+          "line": 6,
+          "character": 6
+        }
+      }
+    },
+    {
+      "file": "test_compile_bug.mips",
+      "description": "You'll notice the program didn't compile correctly.  That's because the above statement has a typo, it should be *syscall* instead of *syscal*!  Click below to add the correct statement to the code.\n\n```mips\nsyscall\n```",
+      "line": 27,
+      "selection": {
+        "start": {
+          "line": 27,
+          "character": 1
+        },
+        "end": {
+          "line": 27,
+          "character": 7
+        }
+      }
+    },
+    {
+      "file": "test_compile_bug.mips",
+      "description": "If you try running the program again, you should get a runtime error that says Program counter invalid on (dropped off bottom).  This is because we forgot to exit the program properly!  Click the code below again to fix the bug.\n\n```mips\n\nli $v0, 10\nsyscall\n\n```",
+      "line": 46
+    },
+    {
+      "file": "test_runtime_bug.mips",
+      "description": "Finally, let's try using the debugger to find a bug.  First, we need to set up a launch.json.  To do this, follow the below steps:\n- Click on the debug button on the left.\n- Click on **create a launch.json file**.\n- Click on **Add Configuration...** and select *Dashmips (Run)*.\n- Save the launch.json file and you're done!",
+      "line": 2,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 1,
+          "character": 6
+        }
+      }
+    },
+    {
+      "file": "test_runtime_bug.mips",
+      "description": "Try debugging the program without any breakpoints by clicking the green arrow in the top left corner next to *Dashmips (Run)*.  A new terminal should open and you should see the following output:\n\nThe Declaration of Independence was issued in 1920.",
+      "line": 11
+    },
+    {
+      "file": "test_runtime_bug.mips",
+      "description": "But that doesn't seem to be the correct date-- let's try stepping through the program by setting a breakpoint!  Set a breakpoint on line 13 by clicking to the left of 13 (a red dot should appear!), then debug the program again.",
+      "line": 15,
+      "selection": {
+        "start": {
+          "line": 13,
+          "character": 1
+        },
+        "end": {
+          "line": 15,
+          "character": 8
+        }
+      }
+    },
+    {
+      "file": "test_runtime_bug.mips",
+      "description": "You should be stopped on the line, and you can use the debug tool on the top right to step through the program.  Try hovering over registers, looking through the live registers updates on the left, and watching for any changes as you step through!",
+      "line": 17,
+      "selection": {
+        "start": {
+          "line": 17,
+          "character": 1
+        },
+        "end": {
+          "line": 20,
+          "character": 8
+        }
+      }
+    },
+    {
+      "file": "test_runtime_bug.mips",
+      "description": "You might have noticed that we're loading the incorrect year for our program!  You can see this by stepping past line 19 and hovering over $a0 to see its value.  Click below to correct the code and try debugging again!\n\n```mips\nla $t0, year2\n```",
+      "line": 18,
+      "selection": {
+        "start": {
+          "line": 18,
+          "character": 1
+        },
+        "end": {
+          "line": 18,
+          "character": 14
+        }
+      }
+    }
+  ]
+}

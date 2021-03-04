@@ -1,6 +1,6 @@
 .data
 hello_world: .ascii   "Hello SIGCSE!\n"
-hello_again: .ascii   "Hello again."
+hello_again: .ascii   "Hello again.\n"
 
 .text
 main:
@@ -30,6 +30,3 @@ syscal
 addi $t0, $t0, 1
 
 bge $t0, $t1, loop
-
-li $v0, 10
-syscall
