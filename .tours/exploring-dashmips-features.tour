@@ -7,21 +7,6 @@
       "description": "Welcome to the Dashmips tour!  We will go over various features of Dashmips, including:\n- Memory Visualizer\n- Debugger\n- Command Line Integration\n...And more!"
     },
     {
-      "file": "test_runtime_bug.mips",
-      "description": "That's all for the tour of Dashmips' features!  Check out the *Exploring Dashmips' Usages* tour for more information on how Dashmips can be utilized and expanded on as a tool.",
-      "line": 27,
-      "selection": {
-        "start": {
-          "line": 26,
-          "character": 1
-        },
-        "end": {
-          "line": 27,
-          "character": 8
-        }
-      }
-    },
-    {
       "file": "test_memory_visualizer.mips",
       "description": "Dashmips has a built in Memory Visualizer for the stack, heap, and .data sections!\n\nLet's try running it - press control/command + shift + P and select one of the following commands:\n\nDashmips: Visualize the stack\n\nDashmips: Visualize the heap\n\nDashmips: Visualize the .data section\n",
       "line": 8,
@@ -98,7 +83,7 @@
     },
     {
       "file": "test_runtime_bug.mips",
-      "description": "But that doesn't seem to be the correct date-- let's try stepping through the program by setting a breakpoint!  Set a breakpoint on line 13 by clicking to the left of 13 (a red dot should appear!), then debug the program again.",
+      "description": "But that doesn't seem to be the correct date-- let's try stepping through the program by setting a breakpoint!  Set a breakpoint on line 13 by clicking to the left of 13 (a red dot should appear), then debug the program again.",
       "line": 15,
       "selection": {
         "start": {
@@ -128,7 +113,7 @@
     },
     {
       "file": "test_runtime_bug.mips",
-      "description": "You might have noticed that we're loading the incorrect year for our program!  You can see this by stepping past line 19 and hovering over $a0 to see its value.  Click below to correct the code and try debugging again!\n\n```mips\nla $t0, year2\n```",
+      "description": "You might have noticed that we're loading the incorrect year for our program!  You can see this by stepping past line 19 and hovering over $a0 to see its value.  Click below to correct the code and try debugging again.\n\n```mips\nla $t0, year2\n```",
       "line": 18,
       "selection": {
         "start": {
@@ -138,6 +123,21 @@
         "end": {
           "line": 18,
           "character": 14
+        }
+      }
+    },
+    {
+      "file": "test_runtime_bug.mips",
+      "description": "That's all for the tour of Dashmips' features!  Check out the *Exploring Dashmips' Usages* tour for more information on how Dashmips can be utilized and expanded on as a tool.",
+      "line": 27,
+      "selection": {
+        "start": {
+          "line": 26,
+          "character": 1
+        },
+        "end": {
+          "line": 27,
+          "character": 8
         }
       }
     }
