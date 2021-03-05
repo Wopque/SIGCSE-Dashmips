@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Welcome!",
-      "description": "Welcome to the Dashmips tour!  We will go over various features of Dashmips, including:\n- Memory Visualizer\n- Debugger\n- Command Line Integration\n...And more!"
+      "description": "Welcome to the Dashmips tour!  We will go over various features of Dashmips, including:\n- Memory Visualizer\n- Debugger\n- Command Line Integration\n\n...And more!"
     },
     {
       "file": "test_memory_visualizer.mips",
@@ -113,7 +113,7 @@
     },
     {
       "file": "test_runtime_bug.mips",
-      "description": "You might have noticed that we're loading the incorrect year for our program!  You can see this by stepping past line 19 and hovering over $a0 to see its value.  Click below to correct the code and try debugging again.\n\n```mips\nla $t0, year2\n```",
+      "description": "You might have noticed that we're loading the incorrect year for our program.  You can see this by stepping past line 19 and hovering over $a0 to see its value.  Click below to correct the code and try debugging again.\n\n```mips\nla $t0, year2\n```",
       "line": 18,
       "selection": {
         "start": {
