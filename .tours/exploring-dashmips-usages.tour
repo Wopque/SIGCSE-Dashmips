@@ -7,84 +7,98 @@
       "description": "Welcome to the Dashmips' Usages tour!  This will be a short tour exploring the possible usages for Dashmips in a classroom or working setting."
     },
     {
-      "file": "sample_instructions.py",
-      "description": "This is an example of how Dashmips implements its instructions.  As you can see, each instruction is just a simple Python function.  Note the regular expression patterns as input, as well as the docstrings that are used when hovering over an instruction.",
-      "line": 10,
+      "file": "sample_grading.py",
+      "description": "This file is an example of how Dashmips can process and grade student homework for a classroom setting.  This section iterates through all student submissions and preprocesses and compiles the code.",
+      "line": 11,
       "selection": {
         "start": {
-          "line": 5,
+          "line": 8,
           "character": 1
         },
         "end": {
-          "line": 10,
-          "character": 33
-        }
-      }
-    },
-    {
-      "file": "sample_syscalls.py",
-      "description": "Similar to the previous file, this shows how Dashmips implements syscalls.  These follow a comparable pattern to implementing MIPS instructions, making it very simple to add or adjust syscalls as needed.",
-      "line": 10,
-      "selection": {
-        "start": {
-          "line": 5,
-          "character": 1
-        },
-        "end": {
-          "line": 10,
-          "character": 23
+          "line": 11,
+          "character": 36
         }
       }
     },
     {
       "file": "sample_grading.py",
-      "description": "Finally, here is an example of how Dashmips can process and grade student homework for a classroom setting.  This section iterates through all student submissions and preprocesses and compiles the code.",
-      "line": 7,
+      "description": "Here, we can check various attributes of a student's program as desired.  In this example, we ensure that a student does not exceed 500 actual instructions in their submission.  Using the student's preprocessed program as an object, we can access various features of the program before running it.",
+      "line": 14,
       "selection": {
         "start": {
-          "line": 12,
-          "character": 5
+          "line": 13,
+          "character": 1
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "character": 45
         }
       }
     },
     {
       "file": "sample_grading.py",
-      "description": "Here, we can check various attributes of a student's program as desired.  In this example, we ensure that a student does not exceed 500 actual instructions in their submission.",
-      "line": 13
-    },
-    {
-      "file": "sample_grading.py",
-      "description": "This essentially acts as a lambda that you pass to the below run function, that will take a program *p* and check various attributes of it.  In this particular example, it ensures that the program exits properly and that the $k0 and $k1 registers are unchanged.",
-      "line": 20,
+      "description": "This function essentially acts as a lambda that you pass to the below run function, that will take a program *p* and check various attributes of it.  In this particular example, it ensures that the program exits properly and that the $k0 and $k1 registers are unchanged.",
+      "line": 24,
       "selection": {
         "start": {
-          "line": 15,
-          "character": 5
+          "line": 16,
+          "character": 1
         },
         "end": {
+          "line": 24,
+          "character": 28
+        }
+      }
+    },
+    {
+      "file": "sample_instructions.py",
+      "description": "This file is an example of how Dashmips implements its instructions.  As you can see, each instruction is just a simple Python function that directly adjusts the registers of a program.\n\n> NOTE: the docstrings for each instruction are used directly for documentation.",
+      "selection": {
+        "start": {
           "line": 20,
-          "character": 24
+          "character": 1
+        },
+        "end": {
+          "line": 23,
+          "character": 74
+        }
+      },
+      "line": 23
+    },
+    {
+      "file": "sample_instructions.py",
+      "description": "Each instruction uses regular expression patterns as a decorator along with the below string parsing function so as to match to a variety of instruction patterns.",
+      "line": 12,
+      "selection": {
+        "start": {
+          "line": 12,
+          "character": 1
+        },
+        "end": {
+          "line": 12,
+          "character": 81
         }
       }
     },
     {
-      "file": "sample_grading.py",
-      "description": "These are only some of Dashmips' usages-- as an extension for the highly popular and well-supported IDE Visual Studio Code, the possibilities are endless!",
-      "line": 22,
+      "file": "sample_syscalls.py",
+      "description": "Similar to the previous file, this shows how Dashmips implements syscalls.  These follow a comparable pattern to implementing MIPS instructions, making it very simple to add or adjust syscalls as needed.",
+      "line": 18,
       "selection": {
         "start": {
-          "line": 22,
-          "character": 5
+          "line": 13,
+          "character": 1
         },
         "end": {
-          "line": 22,
-          "character": 58
+          "line": 18,
+          "character": 18
         }
       }
+    },
+    {
+      "title": "End",
+      "description": "These are only some of Dashmips' usages-- as an extension for the highly popular and well-supported IDE Visual Studio Code, the possibilities are endless!"
     }
   ]
 }

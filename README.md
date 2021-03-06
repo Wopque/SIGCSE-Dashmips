@@ -12,7 +12,7 @@ git clone https://github.com/Wopque/SIGCSE-Dashmips.git
 
 Make sure you have Visual Studio Code, Python, and Dashmips installed!
 
-Follow this link for download instructions: https://github.com/nbbeeken/dashmips/wiki/DASHMIPS_DOWNLOAD
+Click [here](https://github.com/nbbeeken/dashmips/wiki/DASHMIPS_DOWNLOAD) for download instructions.
 
 ## Exploring the Repository
 

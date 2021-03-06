@@ -43,7 +43,7 @@
     },
     {
       "file": "test_compile_bug.mips",
-      "description": "You'll notice the program didn't compile correctly.  That's because the above statement has a typo, it should be *syscall* instead of *syscal*!  Click below to add the correct statement to the code.\n\n```mips\nsyscall\n```",
+      "description": "You'll notice the program didn't compile correctly.  That's because the above statement has a typo, it should be *syscall* instead of *syscal*!  Click once below to add the correct statement to the code.\n\n```mips\nsyscall\n```",
       "line": 27,
       "selection": {
         "start": {
@@ -63,7 +63,7 @@
     },
     {
       "file": "test_runtime_bug.mips",
-      "description": "Finally, let's try using the debugger to find a bug.  First, we need to set up a launch.json.  To do this, follow the below steps:\n- Click on the debug button on the sidebar.\n- Click on **create a launch.json file**.\n- Click on **Add Configuration...** and select *Dashmips (Run)*.\n- Save the launch.json file and you're done!",
+      "description": "Finally, let's try using the debugger to find a bug.  To debug using Visual Studio Code, you need to set up a launch.json.  There should already be one included in the workspace, but in case you need to create a new launch.json here are the steps:\n- Click on the debug button on the sidebar.\n- Click on **create a launch.json file**.\n- Click on **Add Configuration...** and select *Dashmips (Run)*.\n- Save the launch.json file and you're done!",
       "line": 2,
       "selection": {
         "start": {
@@ -98,7 +98,7 @@
     },
     {
       "file": "test_runtime_bug.mips",
-      "description": "You should be stopped on the line, and you can use the debug tool on the top right to step through the program.  Try hovering over registers, looking through the live registers updates on the left, and watching for any changes as you step through!",
+      "description": "You should be stopped on line 13.  Use the debug toolbar in the top right to step through the program until line 20.  As you're stepping through the program, try hovering over registers, looking through the live registers updates on the left, and watching for any changes to register values!",
       "line": 17,
       "selection": {
         "start": {
@@ -113,7 +113,7 @@
     },
     {
       "file": "test_runtime_bug.mips",
-      "description": "You might have noticed that we're loading the incorrect year for our program.  You can see this by stepping past line 19 and hovering over $a0 to see its value.  Click below to correct the code and try debugging again.\n\n```mips\nla $t0, year2\n```",
+      "description": "You might have noticed that we're loading the incorrect year for our program.  You can see this by stepping past line 19 and hovering over $a0 to see its value.  Click below to correct the code and then debug the program again using the green rerun button in the debug toolbar.\n\n```mips\nla $t0, year2\n```",
       "line": 18,
       "selection": {
         "start": {
