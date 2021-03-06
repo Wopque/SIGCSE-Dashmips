@@ -63,7 +63,7 @@
     },
     {
       "file": "test_runtime_bug.mips",
-      "description": "Finally, let's try using the debugger to find a bug.  First, we need to set up a launch.json.  To do this, follow the below steps:\n- Click on the debug button on the left.\n- Click on **create a launch.json file**.\n- Click on **Add Configuration...** and select *Dashmips (Run)*.\n- Save the launch.json file and you're done!",
+      "description": "Finally, let's try using the debugger to find a bug.  First, we need to set up a launch.json.  To do this, follow the below steps:\n- Click on the debug button on the sidebar.\n- Click on **create a launch.json file**.\n- Click on **Add Configuration...** and select *Dashmips (Run)*.\n- Save the launch.json file and you're done!",
       "line": 2,
       "selection": {
         "start": {

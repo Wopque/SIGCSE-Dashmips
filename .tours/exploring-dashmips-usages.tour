@@ -38,7 +38,7 @@
     },
     {
       "file": "sample_grading.py",
-      "description": "Finally, here is an example of how Dashmips can process and grade student homework for a classroom setting.  This section iterates through all student submissions and preprocesses or compiles the code.",
+      "description": "Finally, here is an example of how Dashmips can process and grade student homework for a classroom setting.  This section iterates through all student submissions and preprocesses and compiles the code.",
       "line": 7,
       "selection": {
         "start": {

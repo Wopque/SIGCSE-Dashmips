@@ -1,7 +1,7 @@
 .data
 
 intro: .asciiz "The Declaration of Independence was issued in "
-period: .asciiz "."
+period: .asciiz ".\n"
 year1: .word 1678
 year2: .word 1776
 year3: .word 1845
