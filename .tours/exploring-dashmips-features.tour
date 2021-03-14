@@ -59,7 +59,7 @@
     {
       "file": "test_compile_bug.mips",
       "description": "If you try running the program again, you should get a runtime error that says Program counter invalid on (dropped off bottom).  This is because we forgot to exit the program properly!  Click the code below again to fix the bug.\n\n```mips\n\nli $v0, 10\nsyscall\n\n```",
-      "line": 46
+      "line": 49
     },
     {
       "file": "test_runtime_bug.mips",
