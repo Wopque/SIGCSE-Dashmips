@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Welcome!",
-      "description": "Welcome to the Dashmips tour!  We will go over various features of Dashmips, including:\n- Memory Visualizer\n- Debugger\n- Command Line Integration\n\n...And more!"
+      "description": "Welcome to the Dashmips tour!  We will go over various features of Dashmips, including:\n- Memory Visualizer\n- Command Line Integration\n- Debugger\n\n...And more!"
     },
     {
       "file": "test_memory_visualizer.mips",
