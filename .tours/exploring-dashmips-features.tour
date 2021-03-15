@@ -9,7 +9,22 @@
     {
       "file": "test_memory_visualizer.mips",
       "description": "Dashmips has a built in Memory Visualizer for the stack, heap, and .data sections!\n\nLet's try running it - press control/command + shift + P and select one of the following commands:\n\nDashmips: Visualize the stack\n\nDashmips: Visualize the heap\n\nDashmips: Visualize the .data section\n",
-      "line": 8,
+      "line": 13,
+      "selection": {
+        "start": {
+          "line": 8,
+          "character": 1
+        },
+        "end": {
+          "line": 13,
+          "character": 56
+        }
+      }
+    },
+    {
+      "file": "test_memory_visualizer.mips",
+      "description": "The memory visualizer will automatically update with live debugging-- simply open the visualizer before running and then debug to see any changes!\n\nMemory can be visualized as either ascii characters, integers, or floats.",
+      "line": 22,
       "selection": {
         "start": {
           "line": 19,
@@ -20,11 +35,6 @@
           "character": 8
         }
       }
-    },
-    {
-      "file": "test_memory_visualizer.mips",
-      "description": "The memory visualizer will automatically update with live debugging-- simply open the visualizer before running and then debug to see any changes!\n\nMemory can be visualized as either ascii characters, integers, or floats.",
-      "line": 19
     },
     {
       "file": "test_compile_bug.mips",
@@ -59,7 +69,7 @@
     {
       "file": "test_compile_bug.mips",
       "description": "If you try running the program again, you should get a runtime error that says Program counter invalid on (dropped off bottom).  This is because we forgot to exit the program properly!  Click the code below again to fix the bug.\n\n```mips\n\nli $v0, 10\nsyscall\n\n```",
-      "line": 49
+      "line": 52
     },
     {
       "file": "test_runtime_bug.mips",
@@ -99,7 +109,7 @@
     {
       "file": "test_runtime_bug.mips",
       "description": "You should be stopped on line 13.  Use the debug toolbar in the top right to step through the program until line 20.  As you're stepping through the program, try hovering over registers, looking through the live registers updates on the left, and watching for any changes to register values!",
-      "line": 17,
+      "line": 20,
       "selection": {
         "start": {
           "line": 17,
