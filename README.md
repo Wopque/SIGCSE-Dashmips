@@ -23,3 +23,8 @@ To help navigate the repository, be sure to also download the CodeTour extension
 Open a new window of VSCode and select File -> Open... and open the SIGCSE-Dashmips folder.
 
 Finally, use the Code Tours to explore the repository and Dashmips' features!
+
+## Dashmips Links
+https://github.com/nbbeeken/dashmips
+
+https://github.com/nbbeeken/dashmips-debugger
